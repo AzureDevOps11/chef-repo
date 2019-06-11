@@ -1,0 +1,9 @@
+DEPENDENCIES
+  mydocker
+    path: .
+    metadata: true
+
+GRAPH
+  docker-engine (0.2.3)
+  mydocker (0.1.1)
+    docker-engine (~> 0.2.3)
